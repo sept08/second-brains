@@ -343,7 +343,7 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? true
- :graph/settings {:journal? true, :builtin-pages? true}
+ :graph/settings {:journal? true, :builtin-pages? false}
  :journal/page-title-format "yyyy年MM月dd日"
 
  ;; specify the format of the filename for journal files

@@ -32,7 +32,7 @@
  ;; :ui/show-brackets? true
 
  ;; Enable showing the body of blocks when referencing them.
- :ui/show-full-blocks? false
+ :ui/show-full-blocks? true
 
  ;; Expand block references automatically when zoom-in
  :ui/auto-expand-block-refs? true
@@ -343,7 +343,7 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? true
- :graph/settings {:journal? false}
+ :graph/settings {:journal? false, :builtin-pages? false}
  :journal/page-title-format "yyyy年MM月dd日"
 
  ;; specify the format of the filename for journal files
